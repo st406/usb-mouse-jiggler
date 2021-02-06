@@ -9,9 +9,8 @@ mouse = Mouse(usb_hid.devices)
 
 try:
 	while True :
-		x = random.randrange(-1, 1)
-		y = random.randrange(-1, 1)
-		mouse.move(x,y)
+		x = random.randrange(-0.1, 0.1)
+		mouse.move(x,0)
 		time.sleep(30)
 except KeyboardInterrupt:
     pass

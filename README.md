@@ -11,5 +11,5 @@ USB HID devices - https://github.com/adafruit/Adafruit_CircuitPython_HID
 
 Download uf2 file for pico from https://circuitpython.org/board/raspberry_pi_pico/ and copy to the pico
 git clone : https://github.com/adafruit/Adafruit_CircuitPython_HID
-copy adafruit_hid and copy.py to the pico where Circuit Python is installed
+copy adafruit_hid and code.py to the pico where Circuit Python is installed
 
